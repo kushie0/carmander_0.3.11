@@ -40,12 +40,12 @@ def test3():
 
 
 def test4():
-    bing_scrape = KBBScraper(
+    troy_scrape = KBBScraper(
         zip_code='12180',
         make_code='AUDI',
         min_year='2015'
     )
-    bing_scrape.run_scrape()
+    troy_scrape.run_scrape()
 
 
 class KBBScraper:
